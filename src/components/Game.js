@@ -12,21 +12,21 @@ const PIECE_VALUES = { p: 1, n: 3, b: 3, r: 5, q: 9, k: 0 };
 
 // Add this array at the top of your file, outside the component
 const BOT_NAMES = [
-  "ChessWhiz",
-  "GrandMaster Bot",
-  "Queen's Gambit",
-  "RookieBot",
-  "KnightRider",
+  "Sainath Patlolla",
+  "Divya",
+  "Shivananda",
+  "Balakrishna",
+  "Marcel",
   "BishopBrain",
   "PawnStar",
-  "CheckMate",
-  "KingSlayer",
+  "Trivikram",
+  "Shivram",
   "StrategistAI",
   "TacticalBot",
-  "ChessMaster",
+  "Ninja",
   "MoveGenius",
-  "BoardWizard",
-  "ChessNinja"
+  "NoobChess",
+  "Sanjay Ramaswamy"
 ];
 
 const Game = () => {
@@ -345,7 +345,7 @@ const Game = () => {
       )}
       
       <Link to="/" className="logo-text">
-        Chess Master
+        Chess Battle
       </Link>
       
       <div className="game-header-user-menu" onClick={() => setDropdownOpen(!dropdownOpen)}>
