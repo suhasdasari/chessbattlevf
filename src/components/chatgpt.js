@@ -11,7 +11,7 @@ async function getCommentary(move) {
       {
         model: 'gpt-3.5-turbo',
         messages: [
-          { role: 'system', content: 'You are a chess commentator. Provide a brief, engaging commentary for the given chess move. should not exceed more than 10 words also make it funny.' },
+          { role: 'system', content: 'You are a chess commentator. Provide a brief, engaging commentary for the given chess move. should not exceed more than 10 words also make it valuable for the players.' },
           { role: 'user', content: `Provide commentary for this chess move: ${move}` }
         ],
         max_tokens: 50
